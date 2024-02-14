@@ -1,4 +1,4 @@
-<h3>코로케이션</h3>
+<h3>Colocation</h3>
 <div>
   <p>app 폴더 안에 폴더 계층 구조는 경로 구조이다.</p>
   <p>page.js, route.js가 없을 경우 해당 경로 액세스할 수 없음.</p>
