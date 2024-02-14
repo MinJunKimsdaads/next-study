@@ -1,26 +1,11 @@
-*** 라우팅 기본사항
-> 각 폴더는 URL 세그먼트에 매핑되는 경로 세그먼트를 나타낸다.
-> 중첩된 경로를 만들기위해서는 폴더를 서로 중첩하면 된다.
-> 경로 세그먼트를 공개적으로 액세스할 수 있도록 하려면 page.js파일이 사용된다.
+*** 코로케이션
+> app 폴더 안에 폴더 계층 구조는 경로 구조이다.
+> page.js, route.js가 없을 경우 해당 경로 액세스할 수 없음.
+> 폴더 내에서 개인 폴더를 사용할 경우 폴더 앞에 밑줄을 넣어 생성할 수 있다 (_folderName).
+> 조직화를 위해 경로 그룹을 사용할 경우 괄호를 붙여 생성할 수 있다 ((folderName)).
+> 프로젝트 파일을 app 외부에 저장해도 상관이 없다.
+> 프로젝트 파일을 app 내부에 저장하며, 다 파일을 하위 디렉토리 나누어 저장해도 상관이 없다.
 
-** File Conventions
-> layout: 하위 항목에 대한 공유 UI
-> page: 경로의 고유한 UI
-> loading: 하위 항목에 대한 UI 로딩
-> not-found: 하위 항목에 대한 UI 찾을수 없음
-> error: 하위 항목에 대한 오류 UI
-> global-error: 전역 오류 UI
-> route: 서버 측 API 엔드포인트
-> template: 다시 렌더링된 레이아웃 UI
-> default: 병렬 경로 에 대한 대체 UI
-
-** 구성 요소 계층
-> layout.js
-> template.js
-> error.js
-> loading.js
-> not-found.js
-> page.js
 
 
 ```javaScript
