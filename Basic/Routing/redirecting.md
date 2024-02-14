@@ -5,6 +5,7 @@
 </div>
 <div>
   <p>1. redirect</p>
+    
     'use server'
  
     import { redirect } from 'next/navigation'
